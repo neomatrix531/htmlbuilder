@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTMLBuilder 31.X</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>HTMLBuilder <span>31.X</span></h1>
+  </header>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Templates</h2>
+      <div class="template-list">
+        <div class="template-item" draggable="true" data-template='&lt;button&gt;Click Me&lt;/button&gt;'>Button</div>
+        <div class="template-item" draggable="true" data-template='&lt;input type="text" placeholder="Enter text..." /&gt;'>Input</div>
+        <div class="template-item" draggable="true" data-template='&lt;div class="box"&gt;A Box&lt;/div&gt;'>Box</div>
+        <div class="template-item" draggable="true" data-template='&lt;img src="https://placekitten.com/200/100" alt="Kitten"/&gt;'>Image</div>
+      </div>
+    </aside>
+    <main>
+      <section class="canvas-section">
+        <h2>Canvas</h2>
+        <div id="canvas" class="canvas" tabindex="0"></div>
+      </section>
+      <section class="editor-section">
+        <h2>Code Editor</h2>
+        <textarea id="code-editor" class="code-editor" spellcheck="false"></textarea>
+        <button id="apply-code" class="apply-btn">Apply Changes</button>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <span>HTMLBuilder 31.X &copy; 2025</span>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
